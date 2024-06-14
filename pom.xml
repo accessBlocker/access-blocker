@@ -13,6 +13,7 @@
 	<version>0.0.1</version>
 	<name>access-blocker</name>
 	<description>access-blocker parent project</description>
+	<packaging>pom</packaging>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.2</spring-cloud.version>
@@ -83,4 +84,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>failed-sender</module>
+	</modules>
 </project>
