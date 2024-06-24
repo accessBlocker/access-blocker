@@ -21,7 +21,7 @@ import telran.blocker.service.SenderService;
 @RequiredArgsConstructor
 @EnableScheduling
 public class SenderAppl {
-	public static final long TIMEOUT = 30000;
+	public static final long TIMEOUT = 85000;
 	final SenderService senderService;
 	final StreamBridge streamBridge;
 	final SenderConfiguration senderConfiguration;
